@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Login Obyco</title>
+    <link rel="icon" href="/imagenes/logo-oby.png">
+</head>
+
+<style>
+
+*{
+
+    box-sizing: border-box;
+    
+}
+body{
+
+    background: rgb(90,255,232);
+    background: radial-gradient(circle, rgba(90,255,232,1) 0%, rgba(87,246,233,1) 0%, rgba(73,211,236,1) 19%, rgba(84,239,234,1) 19%, rgba(70,204,237,1) 21%, rgba(0,20,255,1) 100%);
+
+}
+
+.login{
+
+    width: 500px;
+    height: 240px;
+    background-color: rgba(245, 245, 220, 0.452);
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px;
+    animation: animation ease 1s;
+
+}
+
+.formulario{
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'calibri';
+    animation: animation ease 1s;
+}
+
+.formulario #data{
+    width: 50%;
+    height: 25px;
+}
+
+.formulario #button{
+    height: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.imagen{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.imagen img{
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+    animation: animation ease 1s;
+}
+
+h1{
+
+    margin: auto;
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px black;
+    animation: animation ease 1s;
+
+}
+
+.info{
+
+    width: 60%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    animation: animation ease 1s;
+
+}
+
+.info1{
+
+    width: 60%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    animation: animation ease 1s;
+
+}
+
+.info1 h2{
+
+    margin: auto;
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px black;
+    margin-top: 70px;
+    animation: animation ease 1.5s;
+
+}
+
+.button{
+
+    background-color: rgb(59, 45, 255);
+    width: 100px;
+    height: 28px;
+    margin: auto;
+    margin-top: 15px;
+    box-shadow: 2px 4px 5px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+
+}
+
+.button a{
+
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: none;
+
+}
+
+@keyframes animation{
+
+    from{
+
+        transform: translateX(-200%);
+
+    }
+
+    to{
+
+        transform: translateX(0);
+
+    }
+
+}
+
+</style>
+
+<body>
+
+    <div class="info">  
+        
+        <h1>¡Somos mas que una marca!</h1>
+
+    </div>
+
+<div class="imagen">
+
+    <img src="/imagenes/logo-oby.png" alt="">
+
+</div>
+
+<div class="info1">
+
+    <h2>Bienvenidos</h2>
+
+</div>
+
+<div class="login">
+
+    <form class="formulario">
+
+        <p>Usuario</p>
+        <input id="data" type="text" placeholder="Ingresa aqui tu usuario">
+
+        <p>Contraseña</p>
+        <input id="data" type="password" placeholder="Ingresa aqui tu contraseña">
+        <br>
+        <p class="button"><a href="index.html">Ingresar</a></p>
+
+    </form>
+
+</div>
+
+</body>
+</html>
